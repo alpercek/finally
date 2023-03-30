@@ -1,4 +1,4 @@
-# Prismic + Nuxt Multi-Page Starter
+# ALPer
 
 Want to see an example of a multi-page website using [Prismic][prismic] and [Nuxt][nuxt]? Look no further! This project provides all the code you need for a personal website with a homepage, information pages, and navigation.
 
