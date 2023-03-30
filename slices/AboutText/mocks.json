@@ -1,0 +1,92 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {
+      "title": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "Non Lorem mollit irure duis voluptate amet esse pariatur cillum adipisicing do reprehenderit. Et deserunt cupidatat occaecat dolor."
+            }
+          }
+        ]
+      }
+    },
+    "items": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": [
+          [
+            "text",
+            {
+              "__TYPE__": "StructuredTextContent",
+              "value": [
+                {
+                  "type": "paragraph",
+                  "content": {
+                    "text": "Qui in adipisicing laboris. Irure aliquip deserunt ad amet aute consequat tempor laborum eu tempor duis."
+                  }
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "date",
+    "primary": {
+      "title": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "Laboris irure officia voluptate. Incididunt culpa dolor anim deserunt ullamco magna laborum eu reprehenderit minim culpa nulla adipisicing laboris."
+            }
+          }
+        ]
+      }
+    },
+    "items": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": [
+          [
+            "date",
+            {
+              "__TYPE__": "StructuredTextContent",
+              "value": [
+                {
+                  "type": "paragraph",
+                  "content": {
+                    "text": "Eu ipsum commodo nulla ut duis nulla adipisicing nulla eiusmod cillum adipisicing in. Cupidatat laborum mollit labore veniam. Irure sit laborum amet reprehenderit magna elit sit voluptate irure."
+                  }
+                }
+              ]
+            }
+          ],
+          [
+            "text",
+            {
+              "__TYPE__": "StructuredTextContent",
+              "value": [
+                {
+                  "type": "paragraph",
+                  "content": {
+                    "text": "Incididunt ad proident excepteur do consectetur eiusmod officia do quis esse magna irure. Voluptate aliquip est ipsum occaecat ullamco proident dolor est sint."
+                  }
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    ]
+  }
+]
