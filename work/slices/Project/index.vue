@@ -15,7 +15,7 @@
   <div v-if="!slice.primary.open" class="hidden md:block">
     <div @click="sshowMobileMenu = !sshowMobileMenu" class="flex justify-between"><PrismicRichText :field="slice.primary.namedateyear" class="px-4 md:px-0"/><b v-if="sshowMobileMenu">&#9650;</b><b v-else>&#9660;</b></div><div :class="{ aactive: sshowMobileMenu}" class="max-h-0 transition-all overflow-clip relative">
       
-    <VueSlickCarousel ref="carousel" :variableWidth="true" :centerMode="true" :arrows="false" :autoplay="true" >
+    <VueSlickCarousel ref=uid :variableWidth="true" :centerMode="true" :arrows="false" :autoplay="true" >
       <div v-for="(item, i) in slice.items" :key="`slice-item-${i}`" class="relative">    
           <PrismicImage :field="item.image" class="h-96 pl-4"/>
           <PrismicRichText :field="item.fig" class="px-4 md:px-0 max-w-xs text-gray-300 !pl-6"/>
@@ -53,17 +53,18 @@ import { slice } from 'lodash'
     data(){
     return{
     sshowMobileMenu: false,
-    ssshowMobileMenu: false
+    ssshowMobileMenu: false,
+    uid: slice.id
     }
   },
   methods: {
       showNext() {
-        this.$refs.carousel.next()
+        this.$refs.uid.next()
         
       },
       showPrev() {
         
-        this.$refs.carousel.prev()
+        this.$refs.uid.prev()
       },
       ashowNext() {
         

@@ -1,5 +1,5 @@
 <template>
-  <Bounded as="section" class="bg-white relative">
+  <Bounded as="section" class="bg-white relative font-metrik">
     <!--Code for 100 section-->
     <div v-if="slice.variation === 'default'">
       <div class="grid grid-cols-1 items-center gap-2 justify-items-center md:justify-items-start">
