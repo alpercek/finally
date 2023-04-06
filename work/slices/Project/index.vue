@@ -1,6 +1,6 @@
 <template><Bounded as="section" :style="{'border-top-color':slice.primary.color}" class="bg-white border-t-2 !pb-0">
   <div v-if="slice.primary.open" class="hidden md:block">
-    <div @click="sshowMobileMenu = !sshowMobileMenu" class="flex justify-between"><PrismicRichText :field="slice.primary.namedateyear" class="px-4 md:px-0"/><b v-if="sshowMobileMenu">&#9660;</b><b v-else>&#9650;</b></div><div :class="{ aactive: !sshowMobileMenu}" class="max-h-0 transition-all overflow-clip relative">
+    <div @click="sshowMobileMenu = !sshowMobileMenu" class="flex justify-between"><PrismicRichText :field="slice.primary.namedateyear" class="px-4 md:px-0"/><b v-if="sshowMobileMenu">&#9660;</b><b v-else>&#9650;</b></div><div :class="{ aactive: !sshowMobileMenu}" class="max-h-0 transition-all overflow-hidden relative">
       
     <VueSlickCarousel ref="acarousel" :variableWidth="true" :centerMode="true" :arrows="false" :autoplay="true" >
       <div v-for="(item, i) in slice.items" :key="`slice-item-${i}`" class="relative">    
@@ -13,7 +13,7 @@
       <PrismicRichText :field="slice.primary.description" class="max-w-2xl" /></div>
   </div></div>
   <div v-if="!slice.primary.open" class="hidden md:block">
-    <div @click="sshowMobileMenu = !sshowMobileMenu" class="flex justify-between"><PrismicRichText :field="slice.primary.namedateyear" class="px-4 md:px-0"/><b v-if="sshowMobileMenu">&#9650;</b><b v-else>&#9660;</b></div><div :class="{ aactive: sshowMobileMenu}" class="max-h-0 transition-all overflow-clip relative">
+    <div @click="sshowMobileMenu = !sshowMobileMenu" class="flex justify-between"><PrismicRichText :field="slice.primary.namedateyear" class="px-4 md:px-0"/><b v-if="sshowMobileMenu">&#9650;</b><b v-else>&#9660;</b></div><div :class="{ aactive: sshowMobileMenu}" class="max-h-0 transition-all overflow-hidden relative">
       
     <VueSlickCarousel ref=uid :variableWidth="true" :centerMode="true" :arrows="false" :autoplay="true" >
       <div v-for="(item, i) in slice.items" :key="`slice-item-${i}`" class="relative">    
@@ -26,7 +26,7 @@
       <PrismicRichText :field="slice.primary.description" class="max-w-2xl" /></div>
   </div></div>
   <div class="md:hidden block">
-    <div @click="sshowMobileMenu = !sshowMobileMenu" ><PrismicRichText :field="slice.primary.namedateyear" class="px-4 text-lg font-medium"/></div><div :class="{ aactive: sshowMobileMenu}" class="max-h-0 transition-all overflow-clip relative">
+    <div @click="sshowMobileMenu = !sshowMobileMenu" ><PrismicRichText :field="slice.primary.namedateyear" class="px-4 text-lg font-medium"/></div><div :class="{ aactive: sshowMobileMenu}" class="max-h-0 transition-all overflow-hidden relative">
       
     <VueSlickCarousel ref="mcarousel" :arrows="false" :autoplay="true" >
       <div v-for="(item, i) in slice.items" :key="`slice-item-${i}`" class="relative">    
