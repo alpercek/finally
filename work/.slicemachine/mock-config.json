@@ -84,22 +84,35 @@
     },
     "MainImage": {
       "3366": {
-        "primary": {}
+        "primary": {},
+        "items": {}
       },
       "4060": {
-        "primary": {}
+        "primary": {},
+        "items": {}
       },
       "5050": {
-        "primary": {}
+        "primary": {},
+        "items": {}
       },
       "6040": {
-        "primary": {}
+        "primary": {},
+        "items": {}
       },
       "333333": {
-        "primary": {}
+        "primary": {},
+        "items": {}
       },
       "default": {
-        "primary": {}
+        "primary": {
+          "title": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        },
+        "items": {}
       }
     },
     "Project": {
@@ -136,6 +149,19 @@
         "primary": {},
         "items": {}
       }
+    },
+    "EnlargedSlider": {
+      "default": {
+        "primary": {},
+        "items": {
+          "materials": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
     }
   },
   "_cts": {
@@ -148,6 +174,7 @@
       }
     },
     "navigation": {},
-    "settings": {}
+    "settings": {},
+    "enlarged": {}
   }
 }

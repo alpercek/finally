@@ -19,42 +19,61 @@
             "thumbnails": []
           }
         },
-        "fig": {
+        "enlarge": {
+          "type": "Link",
+          "config": {
+            "label": "enlarge",
+            "placeholder": "",
+            "select": null
+          }
+        },
+        "title": {
           "type": "StructuredText",
           "config": {
-            "label": "Fig",
+            "label": "title",
             "placeholder": "",
             "allowTargetBlank": true,
             "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
           }
         },
-        "arrowcolor": {
-          "type": "Color",
-          "config": {
-            "label": "arrowcolor",
-            "placeholder": ""
-          }
-        }
-      },
-      "items": {
-        "image": {
-          "type": "Image",
-          "config": {
-            "label": "image",
-            "constraint": {},
-            "thumbnails": []
-          }
-        },
-        "fig": {
+        "year": {
           "type": "StructuredText",
           "config": {
-            "label": "fig",
+            "label": "year",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "materials": {
+          "type": "StructuredText",
+          "config": {
+            "label": "materials",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "dimentions": {
+          "type": "StructuredText",
+          "config": {
+            "label": "dimentions",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "location": {
+          "type": "StructuredText",
+          "config": {
+            "label": "location",
             "placeholder": "",
             "allowTargetBlank": true,
             "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
           }
         }
       },
+      "items": {},
       "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
     },
     {
@@ -72,59 +91,122 @@
             "thumbnails": []
           }
         },
-        "fig": {
+        "enlarge": {
+          "type": "Link",
+          "config": {
+            "label": "enlarge",
+            "placeholder": "",
+            "select": null
+          }
+        },
+        "title": {
           "type": "StructuredText",
           "config": {
-            "label": "Fig",
+            "label": "title",
             "placeholder": "",
             "allowTargetBlank": true,
             "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
           }
         },
-        "image33": {
+        "year": {
+          "type": "StructuredText",
+          "config": {
+            "label": "year",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "materials": {
+          "type": "StructuredText",
+          "config": {
+            "label": "materials",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "dimentions": {
+          "type": "StructuredText",
+          "config": {
+            "label": "dimentions",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "location": {
+          "type": "StructuredText",
+          "config": {
+            "label": "location",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "image2": {
           "type": "Image",
           "config": {
-            "label": "Image33",
+            "label": "Image2",
             "constraint": {},
             "thumbnails": []
           }
         },
-        "fig33": {
+        "enlarge2": {
+          "type": "Link",
+          "config": {
+            "label": "enlarge2",
+            "placeholder": "",
+            "select": null
+          }
+        },
+        "title2": {
           "type": "StructuredText",
           "config": {
-            "label": "Fig33",
+            "label": "title2",
             "placeholder": "",
             "allowTargetBlank": true,
             "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
           }
         },
-        "arrowcolor": {
-          "type": "Color",
-          "config": {
-            "label": "arrowcolor",
-            "placeholder": ""
-          }
-        }
-      },
-      "items": {
-        "image": {
-          "type": "Image",
-          "config": {
-            "label": "image",
-            "constraint": {},
-            "thumbnails": []
-          }
-        },
-        "fig": {
+        "year2": {
           "type": "StructuredText",
           "config": {
-            "label": "fig",
+            "label": "year2",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "materials2": {
+          "type": "StructuredText",
+          "config": {
+            "label": "materials2",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "dimentions2": {
+          "type": "StructuredText",
+          "config": {
+            "label": "dimentions2",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "location2": {
+          "type": "StructuredText",
+          "config": {
+            "label": "location2",
             "placeholder": "",
             "allowTargetBlank": true,
             "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
           }
         }
       },
+      "items": {},
       "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
     },
     {
@@ -142,27 +224,54 @@
             "thumbnails": []
           }
         },
-        "fig": {
+        "enlarge": {
+          "type": "Link",
+          "config": {
+            "label": "enlarge",
+            "placeholder": "",
+            "select": null
+          }
+        },
+        "title": {
           "type": "StructuredText",
           "config": {
-            "label": "Fig",
+            "label": "title",
             "placeholder": "",
             "allowTargetBlank": true,
             "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
           }
         },
-        "imageBig": {
-          "type": "Image",
-          "config": {
-            "label": "ImageBig",
-            "constraint": {},
-            "thumbnails": []
-          }
-        },
-        "figBig": {
+        "year": {
           "type": "StructuredText",
           "config": {
-            "label": "FigBig",
+            "label": "year",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "materials": {
+          "type": "StructuredText",
+          "config": {
+            "label": "materials",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "dimentions": {
+          "type": "StructuredText",
+          "config": {
+            "label": "dimentions",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "location": {
+          "type": "StructuredText",
+          "config": {
+            "label": "location",
             "placeholder": "",
             "allowTargetBlank": true,
             "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
@@ -176,42 +285,123 @@
             "thumbnails": []
           }
         },
-        "fig2": {
+        "enlarge2": {
+          "type": "Link",
+          "config": {
+            "label": "enlarge2",
+            "placeholder": "",
+            "select": null
+          }
+        },
+        "title2": {
           "type": "StructuredText",
           "config": {
-            "label": "Fig2",
+            "label": "title2",
             "placeholder": "",
             "allowTargetBlank": true,
             "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
           }
         },
-        "arrowcolor": {
-          "type": "Color",
+        "year2": {
+          "type": "StructuredText",
           "config": {
-            "label": "arrowcolor",
-            "placeholder": ""
+            "label": "year2",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
           }
-        }
-      },
-      "items": {
-        "image": {
+        },
+        "materials2": {
+          "type": "StructuredText",
+          "config": {
+            "label": "materials2",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "dimentions2": {
+          "type": "StructuredText",
+          "config": {
+            "label": "dimentions2",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "location2": {
+          "type": "StructuredText",
+          "config": {
+            "label": "location2",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "image3": {
           "type": "Image",
           "config": {
-            "label": "image",
+            "label": "image3",
             "constraint": {},
             "thumbnails": []
           }
         },
-        "fig": {
+        "enlarge3": {
+          "type": "Link",
+          "config": {
+            "label": "enlarge3",
+            "placeholder": "",
+            "allowTargetBlank": false,
+            "select": null
+          }
+        },
+        "title3": {
           "type": "StructuredText",
           "config": {
-            "label": "fig",
+            "label": "title3",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "year3": {
+          "type": "StructuredText",
+          "config": {
+            "label": "year3",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "materials3": {
+          "type": "StructuredText",
+          "config": {
+            "label": "materials3",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "dimentions3": {
+          "type": "StructuredText",
+          "config": {
+            "label": "dimentions3",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "location3": {
+          "type": "StructuredText",
+          "config": {
+            "label": "location3",
             "placeholder": "",
             "allowTargetBlank": true,
             "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
           }
         }
       },
+      "items": {},
       "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
     },
     {
@@ -229,10 +419,54 @@
             "thumbnails": []
           }
         },
-        "fig": {
+        "enlarge": {
+          "type": "Link",
+          "config": {
+            "label": "enlarge",
+            "placeholder": "",
+            "select": null
+          }
+        },
+        "title": {
           "type": "StructuredText",
           "config": {
-            "label": "Fig",
+            "label": "title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "year": {
+          "type": "StructuredText",
+          "config": {
+            "label": "year",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "materials": {
+          "type": "StructuredText",
+          "config": {
+            "label": "materials",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "dimentions": {
+          "type": "StructuredText",
+          "config": {
+            "label": "dimentions",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "location": {
+          "type": "StructuredText",
+          "config": {
+            "label": "location",
             "placeholder": "",
             "allowTargetBlank": true,
             "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
@@ -241,15 +475,59 @@
         "image2": {
           "type": "Image",
           "config": {
-            "label": "Image2",
+            "label": "image2",
             "constraint": {},
             "thumbnails": []
           }
         },
-        "fig2": {
+        "enlarge2": {
+          "type": "Link",
+          "config": {
+            "label": "enlarge2",
+            "placeholder": "",
+            "select": null
+          }
+        },
+        "title2": {
           "type": "StructuredText",
           "config": {
-            "label": "Fig2",
+            "label": "title2",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "year2": {
+          "type": "StructuredText",
+          "config": {
+            "label": "year2",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "materials2": {
+          "type": "StructuredText",
+          "config": {
+            "label": "materials2",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "dimentions2": {
+          "type": "StructuredText",
+          "config": {
+            "label": "dimentions2",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "location2": {
+          "type": "StructuredText",
+          "config": {
+            "label": "location2",
             "placeholder": "",
             "allowTargetBlank": true,
             "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
@@ -258,47 +536,66 @@
         "image3": {
           "type": "Image",
           "config": {
-            "label": "Image3",
+            "label": "image3",
             "constraint": {},
             "thumbnails": []
           }
         },
-        "fig3": {
+        "enlarge3": {
+          "type": "Link",
+          "config": {
+            "label": "enlarge3",
+            "placeholder": "",
+            "select": null
+          }
+        },
+        "title3": {
           "type": "StructuredText",
           "config": {
-            "label": "Fig3",
+            "label": "title3",
             "placeholder": "",
             "allowTargetBlank": true,
             "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
           }
         },
-        "arrowcolor": {
-          "type": "Color",
-          "config": {
-            "label": "arrowcolor",
-            "placeholder": ""
-          }
-        }
-      },
-      "items": {
-        "image": {
-          "type": "Image",
-          "config": {
-            "label": "image",
-            "constraint": {},
-            "thumbnails": []
-          }
-        },
-        "fig": {
+        "year3": {
           "type": "StructuredText",
           "config": {
-            "label": "fig",
+            "label": "year3",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "materials3": {
+          "type": "StructuredText",
+          "config": {
+            "label": "materials3",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "dimentions3": {
+          "type": "StructuredText",
+          "config": {
+            "label": "dimentions3",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "location3": {
+          "type": "StructuredText",
+          "config": {
+            "label": "location3",
             "placeholder": "",
             "allowTargetBlank": true,
             "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
           }
         }
       },
+      "items": {},
       "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
     },
     {
@@ -316,59 +613,122 @@
             "thumbnails": []
           }
         },
-        "fig": {
+        "enlarge": {
+          "type": "Link",
+          "config": {
+            "label": "enlarge",
+            "placeholder": "",
+            "select": null
+          }
+        },
+        "title": {
           "type": "StructuredText",
           "config": {
-            "label": "Fig",
+            "label": "title",
             "placeholder": "",
             "allowTargetBlank": true,
             "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
           }
         },
-        "image60": {
+        "year": {
+          "type": "StructuredText",
+          "config": {
+            "label": "year",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "materials": {
+          "type": "StructuredText",
+          "config": {
+            "label": "materials",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "dimentions": {
+          "type": "StructuredText",
+          "config": {
+            "label": "dimentions",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "location": {
+          "type": "StructuredText",
+          "config": {
+            "label": "location",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "image2": {
           "type": "Image",
           "config": {
-            "label": "Image60",
+            "label": "Image2",
             "constraint": {},
             "thumbnails": []
           }
         },
-        "fig60": {
+        "enlarge2": {
+          "type": "Link",
+          "config": {
+            "label": "enlarge2",
+            "placeholder": "",
+            "select": null
+          }
+        },
+        "title2": {
           "type": "StructuredText",
           "config": {
-            "label": "Fig60",
+            "label": "title2",
             "placeholder": "",
             "allowTargetBlank": true,
             "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
           }
         },
-        "arrowcolor": {
-          "type": "Color",
-          "config": {
-            "label": "arrowcolor",
-            "placeholder": ""
-          }
-        }
-      },
-      "items": {
-        "image": {
-          "type": "Image",
-          "config": {
-            "label": "image",
-            "constraint": {},
-            "thumbnails": []
-          }
-        },
-        "fig": {
+        "year2": {
           "type": "StructuredText",
           "config": {
-            "label": "fig",
+            "label": "year2",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "materials2": {
+          "type": "StructuredText",
+          "config": {
+            "label": "materials2",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "dimentions2": {
+          "type": "StructuredText",
+          "config": {
+            "label": "dimentions2",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "location2": {
+          "type": "StructuredText",
+          "config": {
+            "label": "location2",
             "placeholder": "",
             "allowTargetBlank": true,
             "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
           }
         }
       },
+      "items": {},
       "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
     },
     {
@@ -386,59 +746,122 @@
             "thumbnails": []
           }
         },
-        "fig": {
+        "enlarge": {
+          "type": "Link",
+          "config": {
+            "label": "enlarge",
+            "placeholder": "",
+            "select": null
+          }
+        },
+        "title": {
           "type": "StructuredText",
           "config": {
-            "label": "Fig",
+            "label": "title",
             "placeholder": "",
             "allowTargetBlank": true,
             "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
           }
         },
-        "image60": {
+        "year": {
+          "type": "StructuredText",
+          "config": {
+            "label": "year",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "materials": {
+          "type": "StructuredText",
+          "config": {
+            "label": "materials",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "dimentions": {
+          "type": "StructuredText",
+          "config": {
+            "label": "dimentions",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "location": {
+          "type": "StructuredText",
+          "config": {
+            "label": "location",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "image2": {
           "type": "Image",
           "config": {
-            "label": "Image60",
+            "label": "Image2",
             "constraint": {},
             "thumbnails": []
           }
         },
-        "fig60": {
+        "enlarge2": {
+          "type": "Link",
+          "config": {
+            "label": "enlarge2",
+            "placeholder": "",
+            "select": null
+          }
+        },
+        "title2": {
           "type": "StructuredText",
           "config": {
-            "label": "Fig60",
+            "label": "title2",
             "placeholder": "",
             "allowTargetBlank": true,
             "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
           }
         },
-        "arrowcolor": {
-          "type": "Color",
-          "config": {
-            "label": "arrowcolor",
-            "placeholder": ""
-          }
-        }
-      },
-      "items": {
-        "image": {
-          "type": "Image",
-          "config": {
-            "label": "image",
-            "constraint": {},
-            "thumbnails": []
-          }
-        },
-        "fig": {
+        "year2": {
           "type": "StructuredText",
           "config": {
-            "label": "fig",
+            "label": "year2",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "materials2": {
+          "type": "StructuredText",
+          "config": {
+            "label": "materials2",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "dimentions2": {
+          "type": "StructuredText",
+          "config": {
+            "label": "dimentions2",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "location2": {
+          "type": "StructuredText",
+          "config": {
+            "label": "location2",
             "placeholder": "",
             "allowTargetBlank": true,
             "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
           }
         }
       },
+      "items": {},
       "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
     }
   ]

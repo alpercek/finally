@@ -3,39 +3,24 @@
 import AboutImage from './AboutImage';
 import AboutInfo from './AboutInfo';
 import AboutText from './AboutText';
-import Hero from './Hero';
-import Image from './Image';
-import ImageCards from './ImageCards';
+import EnlargedSlider from './EnlargedSlider';
 import MainImage from './MainImage';
 import Project from './Project';
-import Quote from './Quote';
-import Text from './Text';
-import TextWithImage from './TextWithImage';
 
 export {
 	AboutImage,
 	AboutInfo,
 	AboutText,
-	Hero,
-	Image,
-	ImageCards,
+	EnlargedSlider,
 	MainImage,
 	Project,
-	Quote,
-	Text,
-	TextWithImage,
 };
 
 export const components = {
 	about_image: AboutImage,
 	about_info: AboutInfo,
 	about_text: AboutText,
-	hero: Hero,
-	image: Image,
-	image_cards: ImageCards,
+	enlarged_slider: EnlargedSlider,
 	main_image: MainImage,
 	project: Project,
-	quote: Quote,
-	text: Text,
-	text_with_image: TextWithImage,
 };

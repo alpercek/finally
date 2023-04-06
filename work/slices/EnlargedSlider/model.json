@@ -1,43 +1,16 @@
 {
-  "id": "project",
+  "id": "enlarged_slider",
   "type": "SharedSlice",
-  "name": "Project",
-  "description": "Project",
+  "name": "EnlargedSlider",
+  "description": "EnlargedSlider",
   "variations": [
     {
       "id": "default",
       "name": "Default",
       "docURL": "...",
       "version": "sktwi1xtmkfgx8626",
-      "description": "Project",
+      "description": "EnlargedSlider",
       "primary": {
-        "namedateyear": {
-          "type": "StructuredText",
-          "config": {
-            "label": "namedateyear",
-            "placeholder": "",
-            "allowTargetBlank": true,
-            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
-          }
-        },
-        "title": {
-          "type": "StructuredText",
-          "config": {
-            "label": "title",
-            "placeholder": "",
-            "allowTargetBlank": true,
-            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
-          }
-        },
-        "description": {
-          "type": "StructuredText",
-          "config": {
-            "label": "description",
-            "placeholder": "",
-            "allowTargetBlank": true,
-            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
-          }
-        },
         "arrowcolor": {
           "type": "Select",
           "config": {
@@ -48,30 +21,6 @@
               "black"
             ],
             "default_value": "white"
-          }
-        },
-        "color": {
-          "type": "Select",
-          "config": {
-            "label": "color",
-            "placeholder": "",
-            "options": [
-              "#000000",
-              "#31FF00",
-              "#000AFF",
-              "#FFF500",
-              "#FF0000"
-            ],
-            "default_value": "#000000"
-          }
-        },
-        "open": {
-          "type": "Boolean",
-          "config": {
-            "label": "open",
-            "placeholder_false": "false",
-            "placeholder_true": "true",
-            "default_value": false
           }
         }
       },
@@ -84,10 +33,46 @@
             "thumbnails": []
           }
         },
-        "fig": {
+        "title": {
           "type": "StructuredText",
           "config": {
-            "label": "fig",
+            "label": "title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "year": {
+          "type": "StructuredText",
+          "config": {
+            "label": "year",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "materials": {
+          "type": "StructuredText",
+          "config": {
+            "label": "materials",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "dimentions": {
+          "type": "StructuredText",
+          "config": {
+            "label": "dimentions",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "location": {
+          "type": "StructuredText",
+          "config": {
+            "label": "location",
             "placeholder": "",
             "allowTargetBlank": true,
             "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"

@@ -50,6 +50,9 @@
             },
             "about_info": {
               "type": "SharedSlice"
+            },
+            "enlarged_slider": {
+              "type": "SharedSlice"
             }
           }
         }

@@ -38,13 +38,17 @@
       },
       "color": {
         "__TYPE__": "FieldContent",
-        "value": "#158419",
-        "type": "Color"
+        "value": "#000000",
+        "type": "Select"
       },
       "arrowcolor": {
         "__TYPE__": "FieldContent",
-        "value": "#4a77d1",
-        "type": "Color"
+        "value": "white",
+        "type": "Select"
+      },
+      "open": {
+        "__TYPE__": "BooleanContent",
+        "value": false
       }
     },
     "items": [

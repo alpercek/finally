@@ -1,11 +1,11 @@
 <template>
   <Bounded as="section" class="bg-white px-4 overflow-hidden"><div :class="{ aaactive: sshowMobileMenu}" class="transition-all max-h-0 md:max-h-none">
     <div><PrismicRichText :field="slice.primary.title" @click="sshowMobileMenu = !sshowMobileMenu" class="!text-xl pb-4 hidden md:block"/>
-      <div class="block md:hidden items-baseline flex gap-2"><PrismicRichText :field="slice.primary.title" class="!text-xl pb-4" @click="sshowMobileMenu = !sshowMobileMenu"/><b v-if="sshowMobileMenu">(-)</b><b v-else>(+)</b></div>
-      <div v-if="slice.variation === 'default'" class="max-w-sm md:max-w-4xl grid grid-cols-1 items-center gap-4 justify-items-start"><div v-for="(item, i) in slice.items" :key="`slice-item-${i}` ">    
+      <div class="block md:hidden items-baseline flex gap-2" @click="sshowMobileMenu = !sshowMobileMenu"><PrismicRichText :field="slice.primary.title" class="!text-xl pb-4" /><b v-if="sshowMobileMenu">(-)</b><b v-else>(+)</b></div>
+      <div v-if="slice.variation === 'default'" class="max-w-sm md:max-w-4xl grid grid-cols-1 items-center gap-0 justify-items-start"><div v-for="(item, i) in slice.items" :key="`slice-item-${i}` ">    
           <PrismicRichText :field="item.text" class=""/>
         </div></div>
-        <div v-if="slice.variation === 'date'" class="max-w-sm md:max-w-4xl grid grid-cols-1 md:justify-items-stretch items-center gap-4 justify-items-start"><div v-for="(item, i) in slice.items" :key="`slice-item-${i}`">    
+        <div v-if="slice.variation === 'date'" class="max-w-sm md:max-w-4xl grid grid-cols-1 md:justify-items-stretch items-center gap-0 justify-items-start"><div v-for="(item, i) in slice.items" :key="`slice-item-${i}`">    
           <div class="flex  gap-4"><PrismicRichText :field="item.date" class="w-1/2 md:flex-[1_0_auto] md:w-auto"/>
           <PrismicRichText :field="item.text" class="md:w-full"/></div>
         </div></div></div></div>

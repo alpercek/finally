@@ -5,7 +5,7 @@
     <VueSlickCarousel ref="carousel" :arrows="false" :adaptiveHeight="true" :autoplay="true" >
       <div v-for="(item, i) in slice.items" :key="`slice-item-${i}` " class="relative">    
           <PrismicImage :field="item.image" />
-          <PrismicRichText :field="item.fig" class="hidden text-xs md:block px-4 md:px-0 max-w-xs"/>
+          <PrismicRichText :field="item.fig" class="hidden text-xs md:block px-4 md:px-0 max-w-xs text-gray-300 !pl-2"/>
           <div class="absolute inline-0 z-40 h-full w-full top-0 hidden md:block"></div>
         </div>
     </VueSlickCarousel><div v-if="slice.items.length > 1" class="flex justify-between px-4 h-12 w-full -translate-y-1/2 absolute top-1/2"> <button @click="showPrev" class="hidden md:block"><i :style="{'border-color':slice.primary.arrowcolor}" class="arrow left "></i></button><button @click="showNext" class="hidden md:block"><i :style="{'border-color':slice.primary.arrowcolor}" class="arrow right"></i></button></div>
