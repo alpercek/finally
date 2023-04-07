@@ -30,7 +30,7 @@
       
     <VueSlickCarousel ref="mcarousel" :arrows="false" :autoplay="true" >
       <div v-for="(item, i) in slice.items" :key="`slice-item-${i}`" class="relative">    
-          <div class="max-h-96 overflow-hidden"><PrismicImage :field="item.image" class="h-96 w-screen"/></div>
+          <div class="max-h-96 overflow-hidden"><PrismicImage :field="item.image" class="h-96 w-screen object-cover"/></div>
           <PrismicRichText :field="item.fig" class="px-4 md:px-0 max-w-xs text-gray-300 !pl-6"/>
           <div class="absolute inline-0 z-40 h-full w-full top-0 hidden md:block"></div>
         </div>
