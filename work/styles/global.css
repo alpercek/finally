@@ -11,6 +11,14 @@
   font-family: "CIRCULAR";
   src: url("../styles/Circular.otf");
 }
+@font-face {
+  font-family: "METRIKBOLD";
+  src: url("../styles/MetrikBold.otf");
+}
+@font-face {
+  font-family: "CIRCULARBOLD";
+  src: url("../styles/CircularBold.otf");
+}
 
 
 [data-collapsible="true"].bg-white + [data-collapsible="true"].bg-white {

@@ -1,17 +1,17 @@
 <template><Bounded as="section" class="bg-white w-screen">
   <div class="relative"><div class="gap-4 grid-cols-1 justify-items-center grid">
-        <a href="/">&#x2715</a>
+        <a href="/" class=" text-gray-400">&#x2715</a>
    
       
     <VueSlickCarousel ref="carousel" :arrows="false" :dots="true" :adaptiveHeight="true" :autoplay="true" class="z-60 h-full w-full" style="-webkit-transform: scaleY(-1); transform: scaleY(-1);">
         <template #customPaging="page">
-      <div class="custom-dot translate-y-20">
+      <div class="custom-dot translate-y-20 font-circular !font-normal text-lg">
         {{ page+1 }}
       </div>
     </template>
       <div v-for="(item, i) in slice.items" :key="`slice-item-${i}` " class="!relative !grid items-center aaaslick-list gap-8">    
           
-          <div class="max-w-xs !no-underline text-center justify-self-center mb-6 h-12"><b>{{ $prismic.asText(item.title) }}</b><span v-if="$prismic.asText(item.year) !== ''"> ({{ $prismic.asText(item.year) }})</span> - {{ $prismic.asText(item.materials) }}<span v-if="$prismic.asText(item.dimentions) !== '' && $prismic.asText(item.materials) !== '' ">,</span> {{ $prismic.asText(item.dimentions) }}<span v-if="$prismic.asText(item.location) !== ''"> ({{ $prismic.asText(item.location) }})</span></div>
+          <div class="max-w-xs !no-underline text-center justify-self-center mb-6 h-12 text-xs font-metrik">{{ $prismic.asText(item.title) }}<span v-if="$prismic.asText(item.year) !== ''"> ({{ $prismic.asText(item.year) }})</span> - {{ $prismic.asText(item.materials) }}<span v-if="$prismic.asText(item.dimentions) !== '' && $prismic.asText(item.materials) !== '' ">,</span> {{ $prismic.asText(item.dimentions) }}<span v-if="$prismic.asText(item.location) !== ''"> ({{ $prismic.asText(item.location) }})</span></div>
           <PrismicImage :field="item.image" class="w-screen"/>
           <div class="absolute inline-0 z-40 h-full w-full top-0 hidden md:block"></div>
         </div>

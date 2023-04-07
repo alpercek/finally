@@ -1,7 +1,7 @@
 <template>
   <Bounded as="header" y-padding="sm">
     <div class="flex flex-wrap items-baseline justify-between gap-x-10 gap-y-3 leading-none">
-      <NuxtLink to="/" class="text-xl tracking-tight !no-underline font-metrik">
+      <NuxtLink to="/" class="text-xl tracking-tight !no-underline font-metrik !tracking-tighter">
         {{ $prismic.asText(settings.data.siteTitle) }}
       </NuxtLink>
       
@@ -14,11 +14,11 @@
 
 
 
-        <ul class="flex flex-wrap gap-6 md:gap-10 pr-8 hidden md:flex">
+        <ul class="flex flex-wrap gap-6 md:gap-4 pr-8 hidden md:flex">
           <li
             v-for="item in navigation.data.links"
             :key="$prismic.asText(item.label)"
-            class="tracking-tight text-slate-800 font-circular"
+            class="tracking-tight text-slate-800 font-circular text-xs"
           >
             <PrismicLink :field="item.link">
               {{ $prismic.asText(item.label) }}

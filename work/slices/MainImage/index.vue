@@ -1,5 +1,5 @@
 <template>
-  <Bounded as="section" class="bg-white relative font-metrik">
+  <Bounded as="section" class="bg-white relative font-metrik pb-6">
     <!--Code for 100 section-->
     <div v-if="slice.variation === 'default'">
       <div class="grid grid-cols-1 items-center gap-2 justify-items-center md:justify-items-start">
@@ -170,5 +170,9 @@ ul.slick-dots{
 .aaaslick-list{
   -webkit-transform: scaleY(-1);
     transform: scaleY(-1);
+}
+b{
+  font-weight: normal;
+  font-family: METRIKBOLD;
 }
 </style>
