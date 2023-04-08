@@ -53,6 +53,18 @@
             },
             "enlarged_slider": {
               "type": "SharedSlice"
+            },
+            "education": {
+              "type": "SharedSlice"
+            },
+            "collections": {
+              "type": "SharedSlice"
+            },
+            "bibliography": {
+              "type": "SharedSlice"
+            },
+            "exhibitions": {
+              "type": "SharedSlice"
             }
           }
         }

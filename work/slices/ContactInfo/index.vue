@@ -1,8 +1,8 @@
 <template>
   <Bounded as="section" class="bg-white px-4 overflow-hidden">
-    <div><PrismicRichText :field="slice.primary.title" class="font-bold text-xl"/>
-      <div v-if="slice.variation === 'default'" class="max-w-sm grid grid-cols-1 items-center gap-4 justify-items-start"><div v-for="(item, i) in slice.items" :key="`slice-item-${i}` ">    
-          <PrismicRichText :field="item.text" class="text-xl"/>
+    <div><PrismicRichText :field="slice.primary.title" class="font-circularbold text-xl"/>
+      <div v-if="slice.variation === 'default'" class="max-w-sm grid grid-cols-1 items-center gap-10 justify-items-start"><div v-for="(item, i) in slice.items" :key="`slice-item-${i}` ">    
+          <PrismicRichText :field="item.text" class="text-xl font-metrik"/>
         </div></div>
         </div>
   </Bounded>

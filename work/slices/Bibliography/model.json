@@ -1,31 +1,30 @@
 {
-  "id": "about_info",
+  "id": "bibliography",
   "type": "SharedSlice",
-  "name": "AboutInfo",
-  "description": "AboutInfo",
+  "name": "Bibliography",
+  "description": "Bibliography",
   "variations": [
     {
       "id": "default",
       "name": "Default",
       "docURL": "...",
       "version": "sktwi1xtmkfgx8626",
-      "description": "AboutInfo",
-      "primary": {
-        "title": {
+      "description": "Bibliography",
+      "primary": {},
+      "items": {
+        "date": {
           "type": "StructuredText",
           "config": {
-            "label": "title",
+            "label": "date",
             "placeholder": "",
             "allowTargetBlank": true,
-            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
           }
-        }
-      },
-      "items": {
+        },
         "text": {
           "type": "StructuredText",
           "config": {
-            "label": "text",
+            "label": "bibliography",
             "placeholder": "",
             "allowTargetBlank": true,
             "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
