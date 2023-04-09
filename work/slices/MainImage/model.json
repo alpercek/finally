@@ -23,8 +23,7 @@
           "type": "Link",
           "config": {
             "label": "enlarge",
-            "placeholder": "",
-            "select": null
+            "select": "document"
           }
         },
         "title": {
@@ -95,8 +94,7 @@
           "type": "Link",
           "config": {
             "label": "enlarge",
-            "placeholder": "",
-            "select": null
+            "select": "document"
           }
         },
         "title": {
@@ -156,8 +154,7 @@
           "type": "Link",
           "config": {
             "label": "enlarge2",
-            "placeholder": "",
-            "select": null
+            "select": "document"
           }
         },
         "title2": {
@@ -228,8 +225,7 @@
           "type": "Link",
           "config": {
             "label": "enlarge",
-            "placeholder": "",
-            "select": null
+            "select": "document"
           }
         },
         "title": {
@@ -289,8 +285,7 @@
           "type": "Link",
           "config": {
             "label": "enlarge2",
-            "placeholder": "",
-            "select": null
+            "select": "document"
           }
         },
         "title2": {
@@ -350,9 +345,7 @@
           "type": "Link",
           "config": {
             "label": "enlarge3",
-            "placeholder": "",
-            "allowTargetBlank": false,
-            "select": null
+            "select": "document"
           }
         },
         "title3": {
@@ -423,8 +416,7 @@
           "type": "Link",
           "config": {
             "label": "enlarge",
-            "placeholder": "",
-            "select": null
+            "select": "document"
           }
         },
         "title": {
@@ -484,8 +476,7 @@
           "type": "Link",
           "config": {
             "label": "enlarge2",
-            "placeholder": "",
-            "select": null
+            "select": "document"
           }
         },
         "title2": {
@@ -545,8 +536,7 @@
           "type": "Link",
           "config": {
             "label": "enlarge3",
-            "placeholder": "",
-            "select": null
+            "select": "document"
           }
         },
         "title3": {
@@ -617,8 +607,7 @@
           "type": "Link",
           "config": {
             "label": "enlarge",
-            "placeholder": "",
-            "select": null
+            "select": "document"
           }
         },
         "title": {
@@ -678,8 +667,7 @@
           "type": "Link",
           "config": {
             "label": "enlarge2",
-            "placeholder": "",
-            "select": null
+            "select": "document"
           }
         },
         "title2": {
@@ -750,8 +738,7 @@
           "type": "Link",
           "config": {
             "label": "enlarge",
-            "placeholder": "",
-            "select": null
+            "select": "document"
           }
         },
         "title": {
@@ -811,8 +798,7 @@
           "type": "Link",
           "config": {
             "label": "enlarge2",
-            "placeholder": "",
-            "select": null
+            "select": "document"
           }
         },
         "title2": {

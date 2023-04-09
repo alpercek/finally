@@ -36,8 +36,8 @@
     }
   },
   mounted(){
-    document.getElementById("bilem").addEventListener('mousemove', function(){
-      document.getElementById("bilem").scrollTo({
+    document.getElementById("bilem").firstChild.addEventListener('mousemove', function(){
+      document.getElementById("bilem").firstChild.scrollTo({
   top: `${event.y}`/(window.innerHeight*2)*10000,
   left: `${event.x}`/(window.innerWidth*2)*10000,
 });
