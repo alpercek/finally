@@ -34,6 +34,11 @@ html::-webkit-scrollbar {
 html {
   -ms-overflow-style: none;
   scrollbar-width: none;
+  background-color: white;
+}
+body{
+  background-color: white;
+
 }
 
 .kaykay::-webkit-scrollbar {
