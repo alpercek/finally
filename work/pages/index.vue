@@ -1,5 +1,5 @@
 <template>
-  <div><SliceZone :slices="page.data.slices" :components="components" /><button id="topitop" class="fixed duration-1000 top-2/3 right-0 transition-all opacity-0" @click="toTop()">&#8593;</button></div>
+  <div><SliceZone :slices="page.data.slices" :components="components" /><button id="topitop" class="fixed duration-1000 delay-200 top-2/3 right-0 transition-all opacity-0" @click="toTop()">&#8593;</button></div>
 </template>
 
 <script>
