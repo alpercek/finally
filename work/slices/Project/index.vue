@@ -57,6 +57,7 @@ import { slice } from 'lodash'
     uid: slice.id
     }
   },
+  
   methods: {
       showNext() {
         this.$refs.uid.next()
@@ -77,10 +78,23 @@ import { slice } from 'lodash'
 
 
     },
+    mounted(){
+  let hidden = document.getElementsByClassName("hidden")
+  
+  for (let index = 0; index < hidden.length; index++) {
+    if (window.screen.width<766) {
+      hidden[index].remove()
+    }
+    
+    }},
+    
     name: 'MyComponent',
     components: { VueSlickCarousel },
     props: getSliceComponentProps(['slice', 'index', 'slices', 'context'])
+
+    
   }
+  
 </script> 
 <style>
 .aactive{

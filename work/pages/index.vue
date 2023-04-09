@@ -1,5 +1,5 @@
 <template>
-  <div><SliceZone :slices="page.data.slices" :components="components" /><div class="fixed flex top-2/3 z-40 w-screen justify-end"><button class="" @click="toTop()">&#8593;</button></div></div>
+  <div><SliceZone :slices="page.data.slices" :components="components" /><button id="topitop" class="fixed  top-2/3 right-0 transition-all opacity-0" @click="toTop()">&#8593;</button></div>
 </template>
 
 <script>
@@ -14,7 +14,11 @@ export default {
     }
   },
   data () {
-    return { components }
+    return { components, 
+    
+      
+    }
+    
   },
   head () {
     return {
@@ -28,7 +32,24 @@ export default {
   left: 0,
   behavior: "smooth",
 });
+  },
+
+},
+mounted(){
+  
+      var lastScrollTop = 0;
+
+
+document.addEventListener("scroll", function(){ 
+   var st = window.pageYOffset || document.documentElement.scrollTop; 
+   if (st > lastScrollTop) {
+    document.getElementById("topitop").style.opacity = 0
+   } else if (st < lastScrollTop) {
+    document.getElementById("topitop").style.opacity = 1
+   }
+   lastScrollTop = st <= 0 ? 0 : st;
+}, false);
+  
   }
-}
 }
 </script>

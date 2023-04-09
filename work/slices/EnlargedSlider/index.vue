@@ -1,4 +1,4 @@
-<template><Bounded as="section" class=" w-screen -translate-y-6">
+<template><div><Bounded as="section" class=" w-screen -translate-y-6">
   <div class="relative"><div class="gap-0 grid-cols-1 justify-items-center grid">
         <a href="/" class=" text-gray-400 !z-40 absolute -translate-y-6">&#x2715</a>
    
@@ -17,7 +17,7 @@
         </div>
     </VueSlickCarousel><div class="flex justify-between px-4 h-12 w-full -translate-y-1/2 absolute top-1/2" v-if="slice.items.length > 1"> <button @click="showPrev" class="hidden md:block"><i :style="{'border-color':slice.primary.arrowcolor}" class="arrow left "></i></button><button @click="showNext" class="hidden md:block"><i :style="{'border-color':slice.primary.arrowcolor}" class="arrow right"></i></button></div>
   
-  </div></div></Bounded>
+  </div></div></Bounded><div class="overflow-scroll h-screen w-screen inset-0 absolute z-50 "><PrismicImage :field="slice.items[0].image" class="w-[200%] z-60 !max-w-none"/></div></div>
 </template>
 
 <script>
