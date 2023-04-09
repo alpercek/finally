@@ -27,7 +27,7 @@
         </ul>
       </nav>
     </div>
-    <ul :class="{ active: sshowMobileMenu}" class="gap-4 md:gap-10 md:hidden flex justify-start text-2xl h-0 mt-0 transition-all overflow-hidden">
+    <ul :class="{ active: sshowMobileMenu}" class="gap-4 md:gap-10 md:hidden flex justify-center text-2xl h-0 mt-0 transition-all overflow-hidden">
           <li
             v-for="item in navigation.data.links"
             :key="$prismic.asText(item.label)"
