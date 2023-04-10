@@ -19,6 +19,10 @@
   font-family: "CIRCULARBOLD";
   src: url("../styles/CircularBold.otf");
 }
+@font-face {
+  font-family: "METRIKMID";
+  src: url("../styles/MetrikMedium.otf");
+}
 
 
 [data-collapsible="true"].bg-white + [data-collapsible="true"].bg-white {
