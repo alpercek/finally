@@ -14,7 +14,7 @@
         "namedateyear": {
           "type": "StructuredText",
           "config": {
-            "label": "namedateyear",
+            "label": "title and year",
             "placeholder": "",
             "allowTargetBlank": true,
             "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
@@ -38,6 +38,13 @@
             "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
           }
         },
+        "color": {
+          "type": "Color",
+          "config": {
+            "label": "top border line color",
+            "placeholder": ""
+          }
+        },
         "arrowcolor": {
           "type": "Select",
           "config": {
@@ -48,21 +55,6 @@
               "black"
             ],
             "default_value": "white"
-          }
-        },
-        "color": {
-          "type": "Select",
-          "config": {
-            "label": "color",
-            "placeholder": "",
-            "options": [
-              "#000000",
-              "#31FF00",
-              "#000AFF",
-              "#FFF500",
-              "#FF0000"
-            ],
-            "default_value": "#000000"
           }
         },
         "open": {

@@ -31,15 +31,15 @@
           {
             "type": "paragraph",
             "content": {
-              "text": "Anim aute sint qui ea voluptate in tempor cupidatat amet. Lorem commodo amet in exercitation culpa cillum anim incididunt."
+              "text": "Dolore exercitation sit sunt minim amet Lorem amet aliqua amet. Anim exercitation enim velit nostrud fugiat adipisicing sunt. Non deserunt est ullamco quis nisi dolore commodo reprehenderit excepteur proident nostrud consequat."
             }
           }
         ]
       },
       "color": {
         "__TYPE__": "FieldContent",
-        "value": "#000000",
-        "type": "Select"
+        "value": "#081db3",
+        "type": "Color"
       },
       "arrowcolor": {
         "__TYPE__": "FieldContent",

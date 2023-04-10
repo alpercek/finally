@@ -117,7 +117,14 @@
     },
     "Project": {
       "default": {
-        "primary": {}
+        "primary": {
+          "namedateyear": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
       }
     },
     "About": {
