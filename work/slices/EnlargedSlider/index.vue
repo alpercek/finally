@@ -3,9 +3,9 @@
         <a href="/" class=" text-gray-400 !z-40 absolute -translate-y-6">&#x2715</a>
    
       
-    <VueSlickCarousel ref="carousel" :arrows="false" :dots="true" :adaptiveHeight="true" :autoplay="true" class="z-0 h-full w-full" style="-webkit-transform: scaleY(-1); transform: scaleY(-1);">
+    <VueSlickCarousel  ref="carousel" :arrows="false" :dots="true" :adaptiveHeight="true"  class="z-0 h-full w-full" style="-webkit-transform: scaleY(-1); transform: scaleY(-1);">
         <template #customPaging="page">
-      <div class="custom-dot translate-y-16 font-circular !font-normal text-lg">
+      <div class="custom-dot translate-y-16 font-circular !font-normal text-lg ">
         {{ page+1 }}
       </div>
     </template>
@@ -15,7 +15,7 @@
           <PrismicImage :field="item.image" class="w-screen"/>
           <div :id="i"  class="absolute inline-0 z-40 h-full w-full top-0 cursor-zoom-in misir"></div>
         </div>
-    </VueSlickCarousel><div class="flex justify-between px-4 h-12 w-full -translate-y-1/2 absolute top-1/2" v-if="slice.items.length > 1"> <button @click="showPrev" class="hidden md:block"><i :style="{'border-color':slice.primary.arrowcolor}" class="arrow left "></i></button><button @click="showNext" class="hidden md:block"><i :style="{'border-color':slice.primary.arrowcolor}" class="arrow right"></i></button></div>
+    </VueSlickCarousel><div class="flex justify-between px-4 h-12 w-full -translate-y-1/2 absolute top-1/2" v-if="slice.items.length > 1"> <button @click="showPrev" class="hidden md:block"><i :style="{'border-color':slice.primary.arrowcolor}" class="arrow left "></i></button><button id="sonra" @click="showNext" class="hidden md:block"><i :style="{'border-color':slice.primary.arrowcolor}" class="arrow right"></i></button></div>
   
   </div></div></Bounded><div><div v-for="(item, i) in slice.items" :key="`slice-item-${i}` "><div :id="i+'a'" @click="sakla" class="overflow-scroll hidden h-screen w-screen inset-0 fixed z-50 cursor-crosshair kaykay ff"><PrismicImage :field="item.image" class="w-[200%] z-60 !max-w-none"/></div></div></div></div>
 </template>
@@ -27,15 +27,22 @@
   import 'vue-slick-carousel/dist/vue-slick-carousel.css'
   // optional style for arrows & dots
   import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
- 
+  
   export default {
     data(){
     return{
+      
     sshowMobileMenu: false,
     goster: false,
+
     }
   },
+  
   mounted(){
+      if (window.screen.width>766) {
+        setInterval(function () {document.getElementById("sonra").click()}, 3000);
+      }
+
     document.getElementById("topitop").style.display = "none"
     for (let index = 0; index < document.getElementsByClassName("ff").length; index++) {
       
@@ -59,6 +66,8 @@ for (let index = 0; index < fed.length; index++) {
 
   },
   methods: {
+    
+    
       showNext() {
         this.$refs.carousel.next()
         
@@ -69,7 +78,8 @@ for (let index = 0; index < fed.length; index++) {
       },
       sakla(){
         event.target.parentElement.style.display = "none"
-      }
+      },
+      
       },
     
     name: 'MyComponent',
@@ -100,5 +110,8 @@ for (let index = 0; index < fed.length; index++) {
 }
 .giz{
   display: none;
+}
+.slick-dots{
+height: 0;
 }
 </style>
