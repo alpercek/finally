@@ -244,6 +244,19 @@
         },
         "primary": {}
       }
+    },
+    "Residencies": {
+      "default": {
+        "primary": {},
+        "items": {
+          "title": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
     }
   },
   "_cts": {

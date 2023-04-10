@@ -10,6 +10,7 @@ import EnlargedSlider from './EnlargedSlider';
 import Exhibitions from './Exhibitions';
 import MainImage from './MainImage';
 import Project from './Project';
+import Residencies from './Residencies';
 
 export {
 	AboutImage,
@@ -22,6 +23,7 @@ export {
 	Exhibitions,
 	MainImage,
 	Project,
+	Residencies,
 };
 
 export const components = {
@@ -35,4 +37,5 @@ export const components = {
 	exhibitions: Exhibitions,
 	main_image: MainImage,
 	project: Project,
+	residencies: Residencies,
 };
