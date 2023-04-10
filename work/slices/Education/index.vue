@@ -4,8 +4,8 @@
       <div class="block md:hidden items-baseline flex gap-2" @click="sshowMobileMenu = !sshowMobileMenu"><p class="!text-2xl pb-4 font-metrikbold" >Education</p><b v-if="sshowMobileMenu" class="!text-2xl">(-)</b><b v-else class="!text-2xl">(+)</b></div>
       
         <div class="max-w-sm md:max-w-4xl grid grid-cols-1 md:justify-items-stretch items-center gap-0 justify-items-start text-lg font-metrik md:text-base"><div v-for="(item, i) in slice.items" :key="`slice-item-${i}`">    
-          <div class="flex  gap-4"><PrismicRichText :field="item.date" class="w-24 flex-[1_0_auto]"/>
-          <PrismicRichText :field="item.text" class="md:w-full "/></div>
+          <div class="flex  gap-4"><PrismicRichText :field="item.date" class="w-24 flex-[1_0_auto] md:!leading-tight leading-normal"/>
+          <PrismicRichText :field="item.text" class="md:w-full md:!leading-tight leading-normal"/></div>
         </div></div></div></div>
   </Bounded>
 </template>
