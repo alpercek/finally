@@ -13,7 +13,7 @@
           
           <div class="max-w-xs !no-underline text-center justify-self-center mb-6 h-12 text-xs font-metrik">{{ $prismic.asText(item.title) }}<span v-if="$prismic.asText(item.year) !== ''"> ({{ $prismic.asText(item.year) }})</span> - {{ $prismic.asText(item.materials) }}<span v-if="$prismic.asText(item.dimentions) !== '' && $prismic.asText(item.materials) !== '' ">,</span> {{ $prismic.asText(item.dimentions) }}<span v-if="$prismic.asText(item.location) !== ''"> ({{ $prismic.asText(item.location) }})</span></div>
           <PrismicImage :field="item.image" class="w-screen"/>
-          <div :id="i"  class="absolute inline-0 z-40 h-full w-full top-0 hidden md:block cursor-zoom-in misir"></div>
+          <div :id="i"  class="absolute inline-0 z-40 h-full w-full top-0 cursor-zoom-in misir"></div>
         </div>
     </VueSlickCarousel><div class="flex justify-between px-4 h-12 w-full -translate-y-1/2 absolute top-1/2" v-if="slice.items.length > 1"> <button @click="showPrev" class="hidden md:block"><i :style="{'border-color':slice.primary.arrowcolor}" class="arrow left "></i></button><button @click="showNext" class="hidden md:block"><i :style="{'border-color':slice.primary.arrowcolor}" class="arrow right"></i></button></div>
   
