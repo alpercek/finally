@@ -36,6 +36,7 @@
     }
   },
   mounted(){
+    document.getElementById("topitop").style.display = "none"
     for (let index = 0; index < document.getElementsByClassName("ff").length; index++) {
       
     document.getElementById(index+"a").addEventListener('mousemove', function(){
