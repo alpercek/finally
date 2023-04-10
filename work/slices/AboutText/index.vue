@@ -6,7 +6,7 @@
           <PrismicRichText :field="item.text" />
         </div></div>
         <div v-if="slice.variation === 'date'" class="max-w-sm md:max-w-4xl grid grid-cols-1 md:justify-items-stretch items-center gap-0 justify-items-start text-lg font-metrik md:text-base"><div v-for="(item, i) in slice.items" :key="`slice-item-${i}`">    
-          <div class="flex  gap-4"><PrismicRichText :field="item.date" class="w-1/2 md:flex-[1_0_auto] md:w-auto"/>
+          <div class="flex  gap-4"><PrismicRichText :field="item.date" class="w-11 md:flex-[1_0_auto]"/>
           <PrismicRichText :field="item.text" class="md:w-full"/></div>
         </div></div></div></div>
   </Bounded>

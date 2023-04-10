@@ -5,7 +5,7 @@
       
         <div class="max-w-sm md:max-w-4xl grid grid-cols-1 md:justify-items-stretch items-center gap-0 justify-items-start text-lg font-metrik md:text-base"><div v-for="(item, i) in slice.items" :key="`slice-item-${i}`">
           <i v-if="i === 0">{{ item.field }}</i> <div v-else-if="i>0"><i v-if=" item.field !== slice.items[i-1].field">{{ item.field }}</i></div>  
-          <div class="flex  gap-4"><PrismicRichText :field="item.date" class="w-1/2 md:flex-[1_0_auto] md:w-auto"/>
+          <div class="flex  gap-4"><PrismicRichText :field="item.date" class=" md:flex-[1_0_auto] w-11"/>
           <PrismicRichText :field="item.title" class="md:w-full "/></div>
         </div></div></div></div>
   </Bounded>
