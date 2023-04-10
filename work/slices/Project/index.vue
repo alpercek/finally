@@ -1,11 +1,11 @@
 <template><Bounded as="section" :style="{'border-top-color':slice.primary.color}" class="bg-white border-t-2 !pb-0">
   <div v-if="slice.primary.open" class="hidden md:block">
-    <div @click="sshowMobileMenu = !sshowMobileMenu" class="flex items-center justify-between h-7 "><PrismicRichText :field="slice.primary.namedateyear" class="px-4 md:px-0 font-circular translate-y-1 text-sm !pl-1"/><b v-if="sshowMobileMenu">&#9660;</b><b v-else>&#9650;</b></div><div :class="{ aactive: !sshowMobileMenu}" class="max-h-0 transition-all overflow-hidden relative">
+    <div @click="sshowMobileMenu = !sshowMobileMenu" class="flex items-center justify-between h-7 "><PrismicRichText :field="slice.primary.namedateyear" class="px-4 md:px-0 font-circular translate-y-1 text-sm !pl-1"/><b v-if="sshowMobileMenu">&darr;</b><b v-else>&uarr;</b></div><div :class="{ aactive: !sshowMobileMenu}" class="max-h-0 transition-all overflow-hidden relative">
       
     <VueSlickCarousel ref="acarousel" :variableWidth="true"  :arrows="false" :autoplay="true" >
       <div v-for="(item, i) in slice.items" :key="`slice-item-${i}`" class="relative">    
           <PrismicImage :field="item.image" class="h-96 pr-4"/>
-          <PrismicRichText :field="item.fig" class="px-4 md:px-0 max-w-xs text-gray-300 !pl-1 text-sm"/>
+          <PrismicRichText :field="item.fig" class="px-4 md:px-0 max-w-xs text-gray-300 !pl-1 text-xs"/>
           <div class="absolute inline-0 z-40 h-full w-full top-0 hidden md:block"></div>
         </div>
     </VueSlickCarousel><div v-if="slice.items.length > 1" class="flex justify-between px-4 h-12 w-full -translate-y-1/2 absolute top-1/3"> <button @click="ashowPrev" ><i :style="{'border-color':slice.primary.arrowcolor}" class="arrow left "></i></button><button @click="ashowNext" ><i :style="{'border-color':slice.primary.arrowcolor}" class="arrow right"></i></button></div>
@@ -13,12 +13,12 @@
       <PrismicRichText :field="slice.primary.description" class="max-w-2xl font-metrik !pl-1 leading-tight" /></div>
   </div></div>
   <div v-if="!slice.primary.open" class="hidden md:block">
-    <div @click="sshowMobileMenu = !sshowMobileMenu" class="flex items-center justify-between h-7"><PrismicRichText :field="slice.primary.namedateyear" class="px-4 md:px-0 font-circular translate-y-1 text-sm !pl-1"/><b v-if="sshowMobileMenu">&#9650;</b><b v-else>&#9660;</b></div><div :class="{ aactive: sshowMobileMenu}" class="max-h-0 transition-all overflow-hidden relative">
+    <div @click="sshowMobileMenu = !sshowMobileMenu" class="flex items-center justify-between h-7"><PrismicRichText :field="slice.primary.namedateyear" class="px-4 md:px-0 font-circular translate-y-1 text-sm !pl-1"/><b v-if="sshowMobileMenu">&uarr;</b><b v-else>&darr;</b></div><div :class="{ aactive: sshowMobileMenu}" class="max-h-0 transition-all overflow-hidden relative">
       
     <VueSlickCarousel ref=uid :variableWidth="true" :arrows="false" :autoplay="true" >
       <div v-for="(item, i) in slice.items" :key="`slice-item-${i}`" class="relative">    
           <PrismicImage :field="item.image" class="h-96 pr-4"/>
-          <PrismicRichText :field="item.fig" class="px-4 md:px-0 max-w-xs text-gray-300 !pl-1 text-sm"/>
+          <PrismicRichText :field="item.fig" class="px-4 md:px-0 max-w-xs text-gray-300 !pl-1 text-xs"/>
           <div class="absolute inline-0 z-40 h-full w-full top-0 hidden md:block"></div>
         </div>
     </VueSlickCarousel><div v-if="slice.items.length > 1" class="flex justify-between px-4 h-12 w-full -translate-y-1/2 absolute top-1/3"> <button @click="showPrev" class="hidden md:block"><i :style="{'border-color':slice.primary.arrowcolor}" class="arrow left "></i></button><button @click="showNext" class="hidden md:block"><i :style="{'border-color':slice.primary.arrowcolor}" class="arrow right"></i></button></div>
