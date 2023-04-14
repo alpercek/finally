@@ -45,9 +45,6 @@
             "about_image": {
               "type": "SharedSlice"
             },
-            "about_text": {
-              "type": "SharedSlice"
-            },
             "about_info": {
               "type": "SharedSlice"
             },
