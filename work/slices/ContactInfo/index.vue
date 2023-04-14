@@ -2,10 +2,10 @@
   <Bounded as="section" class="bg-white px-4 overflow-hidden">
     <div><PrismicRichText :field="slice.primary.title" class="font-circularbold text-xl"/>
       <div class="max-w-sm grid grid-cols-1 items-center gap-10 justify-items-start">
-        <a :href="'mailto:' + $prismic.asText(slice.primary.email)"><PrismicRichText :field="slice.primary.email"  class="text-xl font-metrik"/></a>
-        <div class="text-xl font-metrik flex">Based in {{ $prismic.asText(slice.primary.base)}} <a :href="'https://www.instagram.com/' + $prismic.asText(slice.primary.instagram)">{{ $prismic.asText(slice.primary.instagram) }}</a></div>
+        <a :href="'mailto:' + $prismic.asText(slice.primary.email)"><PrismicRichText :field="slice.primary.email"  class="text-xl font-metrik hover:underline"/></a>
+        <div class="text-xl font-metrik flex ">Based in {{ $prismic.asText(slice.primary.base)}}<span>&nbsp;</span> <a :href="'https://www.instagram.com/' + $prismic.asText(slice.primary.instagram)" class="hover:underline"> {{ $prismic.asText(slice.primary.instagram) }}</a></div>
       </div>
-        <a :href="'http://' + $prismic.asText(slice.primary.website)"><PrismicRichText :field="slice.primary.website" class="text-xl font-metrik"/></a>
+        <a :href="'http://' + $prismic.asText(slice.primary.website)"><PrismicRichText :field="slice.primary.website" class="text-xl font-metrik hover:underline"/></a>
         
         </div>
   </Bounded>
