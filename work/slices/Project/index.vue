@@ -111,7 +111,7 @@ import { slice } from 'lodash'
   border: solid;
   border-width: 0 3px 3px 0;
   display: inline-block;
-  padding: 12px;
+  padding: 9px;
 }
 
 .right {
