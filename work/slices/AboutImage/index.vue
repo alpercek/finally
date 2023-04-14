@@ -2,7 +2,7 @@
   <div class="relative">
    
       
-    <VueSlickCarousel ref="carousel" :arrows="false" :adaptiveHeight="true" :autoplay="true" >
+    <VueSlickCarousel ref="carousel" :arrows="false" :adaptiveHeight="true" :autoplaySpeed="5000" :autoplay="true" >
       <div v-for="(item, i) in slice.items" :key="`slice-item-${i}` " class="relative">    
           <PrismicImage :field="item.image" />
           <PrismicRichText :field="item.fig" class="hidden text-xs md:block px-4 md:px-0 max-w-xs text-gray-300 !pl-2 pt-1 font-circular"/>
