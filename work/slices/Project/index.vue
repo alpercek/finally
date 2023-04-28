@@ -35,7 +35,7 @@
           <div class="absolute inline-0 z-40 h-full w-full top-0 hidden md:block"></div>
         </div>
     </VueSlickCarousel>
-  <div :class="{ aaaaactive: ssshowMobileMenu}" class="transition-all max-h-0 md:max-h-none grid grid-cols-1 items-center gap-4 justify-items-start pt-1 px-4 md:px-0"><PrismicRichText :field="slice.primary.title" class="!text-2xl hidden md:block"/><div class="block md:hidden items-baseline flex  !text-2xl gap-2"><PrismicRichText :field="slice.primary.title" class=" pb-4 font-metrikbold" @click="ssshowMobileMenu = !ssshowMobileMenu"/><b v-if="ssshowMobileMenu">(-)</b><b v-else>(+)</b></div>
+  <div class="transition-all grid grid-cols-1 items-center gap-4 justify-items-start pt-1 px-4 md:px-0"><PrismicRichText :field="slice.primary.title" class="!text-2xl hidden md:block"/><div class="block md:hidden items-baseline flex  !text-2xl gap-2"><PrismicRichText :field="slice.primary.title" class=" pb-4 font-metrikbold" /></div>
       <PrismicRichText :field="slice.primary.description" class="max-w-2xl text-lg font-metrik" /></div>
   </div></div></Bounded><div class="underlinetarget px-0 border-t-2 border-top-color-[#00BAFF] hidden w-screen"></div></div>
 </template>
