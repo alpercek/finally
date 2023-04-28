@@ -26,7 +26,7 @@
       <PrismicRichText :field="slice.primary.description" class="max-w-2xl font-metrik !pl-1 leading-tight text-[0.94rem]" /></div>
   </div></div>
   <div class="md:hidden block">
-    <div @click="sshowMobileMenu = !sshowMobileMenu" ><PrismicRichText :field="slice.primary.namedateyear" class="px-4 text-2xl font-circular"/></div><div :class="{ aaaaactive: sshowMobileMenu}" class="max-h-0 transition-all overflow-hidden relative duration-500">
+    <div @click="sshowMobileMenu = !sshowMobileMenu" ><PrismicRichText :field="slice.primary.namedateyear" class="px-4 text-[1.438rem] font-circular"/></div><div :class="{ aaaaactive: sshowMobileMenu}" class="max-h-0 transition-all overflow-hidden relative duration-500">
       
     <VueSlickCarousel ref="mcarousel" :arrows="false" :autoplaySpeed="5000" :autoplay="true" >
       <div v-for="(item, i) in slice.items" :key="`slice-item-${i}`" class="relative">    
@@ -35,7 +35,7 @@
           <div class="absolute inline-0 z-40 h-full w-full top-0 hidden md:block"></div>
         </div>
     </VueSlickCarousel>
-  <div class="transition-all grid grid-cols-1 items-center gap-4 justify-items-start pt-1 px-4 md:px-0"><PrismicRichText :field="slice.primary.title" class="!text-2xl hidden md:block"/><div class="block md:hidden items-baseline flex  !text-2xl gap-2"><PrismicRichText :field="slice.primary.title" class=" pb-4 font-metrikbold" /></div>
+  <div class="transition-all grid grid-cols-1 items-center gap-4 justify-items-start pt-1 px-4 md:px-0 tracking-tight"><PrismicRichText :field="slice.primary.title" class="!text-[1.438rem] hidden md:block"/><div class="block md:hidden items-baseline flex  !text-[1.438rem] gap-2"><PrismicRichText :field="slice.primary.title" class=" pb-4 font-metrikbold" /></div>
       <PrismicRichText :field="slice.primary.description" class="max-w-2xl text-lg font-metrik" /></div>
   </div></div></Bounded><div class="underlinetarget px-0 border-t-2 border-top-color-[#00BAFF] hidden w-screen"></div></div>
 </template>
