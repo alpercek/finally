@@ -164,14 +164,6 @@ export default {
   font-weight: 700;
  
 }
-ul.slick-dots{
-  -webkit-transform: scaleY(-1);
-    transform: scaleY(-1);
-}
-.aaaslick-list{
-  -webkit-transform: scaleY(-1);
-    transform: scaleY(-1);
-}
 b{
   font-weight: normal;
   font-family: METRIKBOLD;

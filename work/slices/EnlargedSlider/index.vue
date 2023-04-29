@@ -1,21 +1,21 @@
-<template><div><Bounded as="section" class=" w-screen -translate-y-8">
+<template><div class="absolute inset-0 pt-10 pb-12 bg-white"><Bounded as="section" class=" w-screen pb-0">
   <div class="relative"><div class="gap-0 grid-cols-1 justify-items-center grid">
-        <a href="/" class=" text-gray-400 !z-40 absolute top-3.5 left-1/2 -translate-x-1/2">&#x2715</a>
+        <a href="/" class=" text-gray-400 !z-40 absolute top-0 -translate-y-full left-1/2 -translate-x-1/2">&#x2715</a>
    
       
-    <VueSlickCarousel  ref="carousel" :arrows="false" :dots="true" :adaptiveHeight="true"  class="z-0 h-full w-full" style="-webkit-transform: scaleY(-1); transform: scaleY(-1);">
+    <VueSlickCarousel  ref="carousel" :arrows="false" :dots="true" :fade="true"  class="z-0 h-[calc(100vh-5.5rem)] w-full">
         <template #customPaging="page">
-      <div class="custom-dot font-circular !font-normal text-lg ">
+      <div class="custom-dot font-circular !font-normal text-xs ">
         {{ page+1 }}
       </div>
     </template>
-      <div v-for="(item, i) in slice.items" :key="`slice-item-${i}` " class="!relative !grid items-center aaaslick-list gap-0">    
+      <div v-for="(item, i) in slice.items" :key="`slice-item-${i}` " class="!relative !grid items-center gap-1">    
+        <div class="flex w-full justify-center"><PrismicImage :field="item.image" class="h-[calc(100vh-5.5rem)] object-scale-down"/></div>
+          <div class="!no-underline justify-start ml-[calc(44vw-1rem)] md:ml-[calc(44vw-3rem)] text-xs font-metrik ">{{ $prismic.asText(item.title) }}<span v-if="$prismic.asText(item.year).length !== 0"> ({{ $prismic.asText(item.year) }})</span> <span v-if="$prismic.asText(item.dimentions).length !== 0 && $prismic.asText(item.materials).length !== 0 ">-</span> {{ $prismic.asText(item.materials) }}<span v-if="$prismic.asText(item.dimentions).length !== 0 && $prismic.asText(item.materials).length !== 0 ">,</span> {{ $prismic.asText(item.dimentions) }}<span v-if="$prismic.asText(item.location).length !== 0"> ({{ $prismic.asText(item.location) }})</span></div>
           
-          <div class="!no-underline text-center justify-self-center mb-6 h-12 text-xs font-metrik">{{ $prismic.asText(item.title) }}<span v-if="$prismic.asText(item.year).length !== 0"> ({{ $prismic.asText(item.year) }})</span> <span v-if="$prismic.asText(item.dimentions).length !== 0 && $prismic.asText(item.materials).length !== 0 ">-</span> {{ $prismic.asText(item.materials) }}<span v-if="$prismic.asText(item.dimentions).length !== 0 && $prismic.asText(item.materials).length !== 0 ">,</span> {{ $prismic.asText(item.dimentions) }}<span v-if="$prismic.asText(item.location).length !== 0"> ({{ $prismic.asText(item.location) }})</span></div>
-          <PrismicImage :field="item.image" class="h-screen w-screen object-cover"/>
           <div :id="i"  class="absolute inline-0 z-40 h-full w-full top-0 cursor-zoom-in misir"></div>
         </div>
-    </VueSlickCarousel><div class="flex justify-between px-4 h-12 w-full -translate-y-1/2 absolute top-1/2" v-if="slice.items.length > 1"> <button @click="showPrev" class="hidden md:block"><i :style="{'border-color':slice.primary.arrowcolor}" class="arrow left "></i></button><button @click="showNext" class="hidden md:block"><i :style="{'border-color':slice.primary.arrowcolor}" class="arrow right"></i></button></div>
+    </VueSlickCarousel><div class="flex justify-between px-4 h-12 w-full -translate-y-1/2 absolute top-1/2" v-if="slice.items.length > 1"> <button @click="showPrev" class="hidden md:block"><i class="arrow left !border-neutral-100"></i></button><button @click="showNext" class="hidden md:block"><i class="arrow right !border-neutral-100"></i></button></div>
   
   </div></div></Bounded><div><div v-for="(item, i) in slice.items" :key="`slice-item-${i}` "><div :id="i+'a'" @click="sakla" class="overflow-scroll hidden h-screen w-screen inset-0 fixed z-50 cursor-crosshair kaykay ff"><PrismicImage :field="item.image" class="w-[200%] z-60 !max-w-none"/></div></div></div></div>
 </template>
@@ -101,14 +101,17 @@ for (let index = 0; index < fed.length; index++) {
   transform: rotate(135deg);
   -webkit-transform: rotate(135deg);
 }
-.aaaslick-list{
-  -webkit-transform: scaleY(-1);
-    transform: scaleY(-1);
-}
+
 .giz{
   display: none;
 }
 .slick-dots{
-height: 0;
+width: unset;
+bottom: -25px;
+right: calc(56vw + 1rem);;
+
+}
+.slick-dots li{
+  width: 5px;
 }
 </style>
