@@ -1,6 +1,6 @@
-<template><div><Bounded as="section" :style="{'border-top-color':slice.primary.color}" class="bg-white border-t-2 !pb-0">
+<template><div><Bounded as="section" class="bg-white border-t-2 !pb-0 border-t-black">
   <div v-if="slice.primary.open" class="hidden md:block">
-    <div @click="sshowMobileMenu = !sshowMobileMenu" class="flex items-center justify-between h-7 cursor-pointer"><PrismicRichText :field="slice.primary.namedateyear" class="px-4 md:px-0 font-circular text-sm !pl-1"/><b v-if="sshowMobileMenu">&#8853;</b><b v-else>&#8854;</b></div><div :class="{ aactive: !sshowMobileMenu}" class="max-h-0 transition-all overflow-hidden relative duration-500">
+    <div @click="sshowMobileMenu = !sshowMobileMenu" :class="{ mba: !sshowMobileMenu}" class="flex items-center h-7 cursor-pointer transition-all"><b v-if="sshowMobileMenu" :style="{'color':slice.primary.color}" class="mb-[5px]">&#8853;</b><b :style="{'color':slice.primary.color}" v-else class="mb-[5px]">&#8854;</b><PrismicRichText :field="slice.primary.namedateyear" class="px-4 md:px-0 font-circular text-sm !pl-1"/></div><div :class="{ aactive: !sshowMobileMenu}" class="max-h-0 transition-all overflow-hidden relative duration-500">
       
     <VueSlickCarousel ref="acarousel" :variableWidth="true" :autoplaySpeed="5000" :arrows="false" :autoplay="true" >
       <div v-for="(item, i) in slice.items" :key="`slice-item-${i}`" class="relative">    
@@ -13,7 +13,7 @@
       <PrismicRichText :field="slice.primary.description" class="max-w-2xl font-metrik !pl-1 leading-tight text-[0.94rem]" /></div>
   </div></div>
   <div v-if="!slice.primary.open" class="hidden md:block">
-    <div @click="sshowMobileMenu = !sshowMobileMenu" class="flex items-center justify-between h-7 cursor-pointer"><PrismicRichText :field="slice.primary.namedateyear" class="px-4 md:px-0 font-circular text-sm !pl-1"/><b v-if="sshowMobileMenu">&#8854;</b><b v-else>&#8853;</b></div><div :class="{ aactive: sshowMobileMenu}" class="max-h-0 transition-all overflow-hidden relative duration-500">
+    <div @click="sshowMobileMenu = !sshowMobileMenu" :class="{ mba: sshowMobileMenu}" class="flex items-center h-7 cursor-pointer transition-all"><b v-if="sshowMobileMenu" class="mb-[5px]" :style="{'color':slice.primary.color}">&#8854;</b><b v-else class="mb-[5px]" :style="{'color':slice.primary.color}">&#8853;</b><PrismicRichText :field="slice.primary.namedateyear" class="px-4 md:px-0 font-circular text-sm !pl-1"/></div><div :class="{ aactive: sshowMobileMenu}" class="max-h-0 transition-all overflow-hidden relative duration-500">
       
     <VueSlickCarousel ref=uid :variableWidth="true" :autoplaySpeed="5000" :arrows="false" :autoplay="true" >
       <div v-for="(item, i) in slice.items" :key="`slice-item-${i}`" class="relative">    
@@ -107,6 +107,9 @@ import { slice } from 'lodash'
 .aaaaactive{
   max-height: 200rem;
   padding-bottom: 3rem;
+}
+.mba{
+  margin-bottom: 12px;
 }
 .arrow {
   border: solid;

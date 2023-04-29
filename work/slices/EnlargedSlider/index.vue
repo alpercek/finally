@@ -11,7 +11,7 @@
     </template>
       <div v-for="(item, i) in slice.items" :key="`slice-item-${i}` " class="!relative !grid items-center gap-1">    
         <div class="flex w-full justify-center"><PrismicImage :field="item.image" class="h-[calc(100vh-5.5rem)] object-scale-down"/></div>
-          <div class="!no-underline justify-start ml-[calc(44vw-1rem)] md:ml-[calc(44vw-3rem)] text-xs font-metrik ">{{ $prismic.asText(item.title) }}<span v-if="$prismic.asText(item.year).length !== 0"> ({{ $prismic.asText(item.year) }})</span> <span v-if="$prismic.asText(item.dimentions).length !== 0 && $prismic.asText(item.materials).length !== 0 ">-</span> {{ $prismic.asText(item.materials) }}<span v-if="$prismic.asText(item.dimentions).length !== 0 && $prismic.asText(item.materials).length !== 0 ">,</span> {{ $prismic.asText(item.dimentions) }}<span v-if="$prismic.asText(item.location).length !== 0"> ({{ $prismic.asText(item.location) }})</span></div>
+          <div class="!no-underline justify-start ml-[calc(44vw-1rem)] md:ml-[calc(44vw-3rem)] text-xs font-metrik max-w-sm">{{ $prismic.asText(item.title) }}<span v-if="$prismic.asText(item.year).length !== 0"> ({{ $prismic.asText(item.year) }})</span> <span v-if="$prismic.asText(item.dimentions).length !== 0 && $prismic.asText(item.materials).length !== 0 ">-</span> {{ $prismic.asText(item.materials) }}<span v-if="$prismic.asText(item.dimentions).length !== 0 && $prismic.asText(item.materials).length !== 0 ">,</span> {{ $prismic.asText(item.dimentions) }}<span v-if="$prismic.asText(item.location).length !== 0"> ({{ $prismic.asText(item.location) }})</span></div>
           
           <div :id="i"  class="absolute inline-0 z-40 h-full w-full top-0 cursor-zoom-in misir"></div>
         </div>
