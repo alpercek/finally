@@ -8,7 +8,7 @@
     <div id="tt" class="!no-underline text-center text-xs font-metrik max-w-sm absolute left-1/2 -translate-x-1/2"></div>
     <div id="misss" class="absolute inline-0 z-20 h-full w-full top-0 cursor-zoom-in"></div>
   </div>
-  <div @click="sakla" id="fff" class="overflow-scroll hidden h-screen w-screen inset-0 fixed z-50 cursor-crosshair kaykay"><img id="itrr" class="w-[200%] z-60 !max-w-none"/></div>
+  <div @click="sakla" id="fff" class="overflow-scroll hidden h-screen w-screen inset-0 fixed z-50 cursor-crosshair kaykay bg-white"><img id="itrr" class="w-[200%] z-60 !max-w-none"/></div>
   </div>
 
 

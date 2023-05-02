@@ -39,7 +39,7 @@ export default {
         autoprefixer:{},
       },
     },
-    transpile: ['@prismicio/vue']
+    transpile: ['@prismicio/vue', "@prismicio/vue"]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -58,7 +58,7 @@ export default {
   },
 
   prismic: {
-    endpoint: sm.apiEndpoint,
+    endpoint: "https://pippasschier.cdn.prismic.io/api/v2",
     modern: true,
     
     linkResolver: (doc) => {
