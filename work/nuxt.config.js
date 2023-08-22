@@ -58,7 +58,7 @@ export default {
   },
 
   prismic: {
-    endpoint: "https://pippasschier.cdn.prismic.io/api/v2",
+    endpoint: "https://pleasework.cdn.prismic.io/api/v2",
     modern: true,
     
     linkResolver: (doc) => {
