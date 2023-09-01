@@ -5,7 +5,7 @@
       
     <VueSlickCarousel  ref="carousel" :arrows="false" :dots="true" :fade="true"  class="z-0 h-[calc(100vh-5.5rem)] w-full">
         <template #customPaging="page">
-      <div class="custom-dot font-circular !font-normal text-xs ">
+      <div class="custom-dot font-circular !font-normal text-xl ">
         {{ page+1 }}
       </div>
     </template>
@@ -90,6 +90,7 @@ for (let index = 0; index < fed.length; index++) {
   border-width: 0 3px 3px 0;
   display: inline-block;
   padding: 9px;
+  border-color: rgb(141, 141, 141);
 }
 
 .right {
